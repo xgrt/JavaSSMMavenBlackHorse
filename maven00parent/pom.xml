@@ -11,8 +11,6 @@
     <packaging>pom</packaging><!--聚合工程：将打包方式设成pom（默认为jar，war包为war）-->
 
     <dependencies>
-
-
         <!--spring-->
         <!--设置具体的依赖-->
         <dependency>
