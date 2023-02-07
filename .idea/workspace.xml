@@ -9,62 +9,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3626019-33ba-4001-9d74-18fdc48eadbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSSMMavenBlackHorse.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/config/JDBCConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/config/ServletContainerInitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/config/SpringMVCConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/config/SpringMVCSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/controller/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/controller/ProjectExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/controller/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/exception/SystemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/pages/books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/elementui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/elementui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven00SSM/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-    </list>
+    <list default="true" id="f3626019-33ba-4001-9d74-18fdc48eadbb" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -123,9 +85,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\webapp\js" />
-      <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\resources" />
       <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\webapp" />
+      <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\resources" />
+      <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\java" />
+      <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\webapp\js" />
       <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main" />
     </key>
   </component>
@@ -229,14 +192,64 @@
       <workItem from="1675679988669" duration="5428000" />
       <workItem from="1675690242660" duration="1343000" />
       <workItem from="1675730973679" duration="997000" />
-      <workItem from="1675732602433" duration="301000" />
+      <workItem from="1675732602433" duration="1563000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1675733439983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675733439983</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1675733816413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675733816413</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1675733880687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675733880687</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1675733906103</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675733906103</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1675734098829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675734098829</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
