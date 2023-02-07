@@ -9,16 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3626019-33ba-4001-9d74-18fdc48eadbb" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/maven02SSMdao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven00SSM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven00SSM/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven02SSMdao/src/main/java/com/xgrt/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven01SSMpojo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven01SSMpojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven01SSMpojo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven01SSMpojo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven01SSMpojo/src/main/webapp/index.jsp" beforeDir="false" />
-    </list>
+    <list default="true" id="f3626019-33ba-4001-9d74-18fdc48eadbb" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +209,7 @@
       <workItem from="1675690242660" duration="1343000" />
       <workItem from="1675730973679" duration="997000" />
       <workItem from="1675732602433" duration="1563000" />
-      <workItem from="1675738562275" duration="6388000" />
+      <workItem from="1675738562275" duration="7292000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675733439983</created>
@@ -290,7 +281,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675745610331</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initial commit">
+      <created>1675747591751</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675747591751</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Initial commit">
+      <created>1675747987735</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675747987735</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
