@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="maven00SSM" />
+        <module name="maven01SSMpojo" />
+        <module name="maven02SSMdao" />
       </profile>
     </annotationProcessing>
   </component>

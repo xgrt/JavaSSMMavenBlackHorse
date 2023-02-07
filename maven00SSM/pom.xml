@@ -13,6 +13,13 @@
       <version>1.0-SNAPSHOT</version>
     </dependency>
 
+    <!--依赖dao运行-->
+    <dependency>
+      <groupId>com.xgrt</groupId>
+      <artifactId>maven02SSMdao</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
     <!--spring-->
     <dependency>
       <groupId>org.springframework</groupId>

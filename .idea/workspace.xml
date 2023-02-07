@@ -9,13 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3626019-33ba-4001-9d74-18fdc48eadbb" name="Changes" comment="Initial commit" />
+    <list default="true" id="f3626019-33ba-4001-9d74-18fdc48eadbb" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/maven02SSMdao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven00SSM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven00SSM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven02SSMdao/src/main/java/com/xgrt/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven00SSM/src/main/java/com/xgrt/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven01SSMpojo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven01SSMpojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven01SSMpojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven01SSMpojo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven01SSMpojo/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -28,6 +38,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="689da5a5-7829-46b0-99d8-ba0ba14bfb18" />
+        <option name="url" value="https://github.com/xgrt/JavaSSMMavenBlackHorse.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -43,6 +67,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -68,7 +93,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "D:/java程序/JavaSSMMavenBlackHorse/maven00SSM/src/main/webapp",
+    "last_opened_file_path": "D:/java程序/JavaSSMMavenBlackHorse/maven01SSMpojo/src/main/java/com/xgrt/domain",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,11 +110,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven01SSMpojo\src\main\java\com\xgrt\domain" />
       <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\webapp" />
       <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\resources" />
       <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\java" />
       <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main\webapp\js" />
-      <recent name="D:\java程序\JavaSSMMavenBlackHorse\maven00SSM\src\main" />
     </key>
   </component>
   <component name="RunManager">
@@ -193,6 +218,7 @@
       <workItem from="1675690242660" duration="1343000" />
       <workItem from="1675730973679" duration="997000" />
       <workItem from="1675732602433" duration="1563000" />
+      <workItem from="1675738562275" duration="6388000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675733439983</created>
@@ -229,7 +255,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675734098829</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit">
+      <created>1675738653868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675738653868</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit">
+      <created>1675738772220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675738772220</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial commit">
+      <created>1675738869837</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675738869837</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial commit">
+      <created>1675738990810</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675738990810</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit">
+      <created>1675745610331</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675745610331</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,16 +301,46 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
