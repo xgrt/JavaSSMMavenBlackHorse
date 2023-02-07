@@ -5,15 +5,27 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xgrt</groupId>
-    <artifactId>maven02SSMdao</artifactId>
+    <artifactId>maven03SSMdao</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+
+
     <dependencies>
+        <!--log4j-->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.12</version>
+        </dependency>
+
         <!--依赖domain运行-->
         <dependency>
             <groupId>com.xgrt</groupId>
-            <artifactId>maven01SSMpojo</artifactId>
+            <artifactId>maven02SSMpojo</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <!--可选依赖：隐藏当前所依赖的资源，隐藏后对应的资源不具有依赖传递性（自己的依赖不让别人用）-->
+            <optional>false</optional><!--false不隐藏，true隐藏-->
         </dependency>
 
         <!--mybatis-->
@@ -35,8 +47,6 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-
-
     </dependencies>
 
 

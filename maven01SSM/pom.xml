@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.xgrt</groupId>
+    <artifactId>maven01SSM</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--配置当前工程继承自parent工程-->
+    <parent>
+        <groupId>com.xgrt</groupId>
+        <artifactId>maven00parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../maven00parent/pom.xml</relativePath><!--相对路径：可以快速地找到我们继承的工程-->
+    </parent>
+
+    <!--设置当前项目所依赖的所有jar-->
+    <dependencies>
+        <!--Junit-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!--<dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>--><!--解除注释后刷新Junit依赖变成4.12版本-->
+
+
+        <!--&lt;!&ndash;依赖domain运行&ndash;&gt;
+        <dependency>
+            <groupId>com.xgrt</groupId>
+            <artifactId>maven01SSMpojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>-->
+
+        <!--依赖dao运行-->
+        <dependency>
+            <groupId>com.xgrt</groupId>
+            <artifactId>maven03SSMdao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <!--排除依赖：隐藏当前资源对应的依赖关系（不想用别人的依赖）-->
+            <exclusions>
+                <!--不需要写版本号，直接将这些技术排除在外-->
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.mybatis</groupId>
+                    <artifactId>mybatis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!--&lt;!&ndash;spring&ndash;&gt;
+        &lt;!&ndash;设置具体的依赖&ndash;&gt;
+        <dependency>
+            &lt;!&ndash;依赖所属群组id&ndash;&gt;
+            <groupId>org.springframework</groupId>
+            &lt;!&ndash;依赖所属项目id&ndash;&gt;
+            <artifactId>spring-webmvc</artifactId>
+            &lt;!&ndash;依赖版本号&ndash;&gt;
+            <version>6.0.3</version>
+        </dependency>-->
+        <!--<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>6.0.3</version>
+        </dependency>-->
+    </dependencies>
+</project>

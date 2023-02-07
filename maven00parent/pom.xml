@@ -1,42 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.xgrt</groupId>
-    <artifactId>maven00SSM</artifactId>
-    <packaging>war</packaging>
+    <artifactId>maven00parent</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <!--设置当前项目所依赖的所有jar-->
+    <packaging>pom</packaging><!--聚合工程：将打包方式设成pom（默认为jar，war包为war）-->
+
     <dependencies>
-        <!--junit-->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope>
-        </dependency>
 
-        <!--<dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>--><!--解除注释后刷新Junit依赖变成4.12版本-->
-
-
-        <!--&lt;!&ndash;依赖domain运行&ndash;&gt;
-        <dependency>
-            <groupId>com.xgrt</groupId>
-            <artifactId>maven01SSMpojo</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>-->
-
-        <!--依赖dao运行-->
-        <dependency>
-            <groupId>com.xgrt</groupId>
-            <artifactId>maven02SSMdao</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
 
         <!--spring-->
         <!--设置具体的依赖-->
@@ -48,11 +23,6 @@
             <!--依赖版本号-->
             <version>6.0.3</version>
         </dependency>
-        <!--<dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>6.0.3</version>
-        </dependency>-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
@@ -99,4 +69,31 @@
             <version>2.14.0</version>
         </dependency>
     </dependencies>
+
+    <!--设置管理的模块名称-->
+    <modules>
+        <!--构建顺序与书写顺序无关，总是按照依赖关系把没有依赖的先构建再去构建其他的-->
+        <module>
+            ../maven01SSM
+        </module>
+        <module>
+            ../maven02SSMpojo
+        </module>
+        <module>
+            ../maven03SSMdao
+        </module>
+    </modules>
+
+    <!--定义依赖管理：不是给自己用，是子工程可选择使用（不强制使用）-->
+    <dependencyManagement>
+        <dependencies>
+            <!--junit-->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.13.2</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
