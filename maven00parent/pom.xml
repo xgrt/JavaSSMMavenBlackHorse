@@ -141,6 +141,7 @@
         </profile>
     </profiles>
 
+
     <!--配置插件-->
     <build>
         <resources>
@@ -150,5 +151,22 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
+
+        <plugins>
+            <!--maven测试插件-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M8</version>
+                <!--配置-->
+                <configuration>
+                    <!--<skipTests>false</skipTests>--><!--配置是否跳过测试-->
+                    <!--排除掉不参与测试的内容-->
+                    <!--<excludes>
+                        <exclude>**/NoneTest.java</exclude>
+                    </excludes>-->
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 </project>
