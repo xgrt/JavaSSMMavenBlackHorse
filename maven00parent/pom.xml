@@ -81,7 +81,7 @@
         <druid.version>1.2.15</druid.version>
         <jackson-databind.version>2.14.0</jackson-databind.version>
 
-        <jdbc.url>jdbc:mysql://127.0.0.1:3306/ssm_db</jdbc.url>
+        <!--<jdbc.url>jdbc:mysql://127.0.0.1:3306/ssm_db</jdbc.url>-->
     </properties>
 
     <!--设置管理的模块名称-->
@@ -110,6 +110,36 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <!--定义多环境-->
+    <profiles>
+        <!--开发环境-->
+        <profile>
+            <id>envDep</id>
+            <properties>
+                <jdbc.url>jdbc:mysql://127.1.1.1:3306/ssm_db</jdbc.url>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault><!--设定是否为默认启动的环境-->
+            </activation><!--设定是否是活动的-->
+        </profile>
+
+        <!--生产环境-->
+        <profile>
+            <id>envPro</id>
+            <properties>
+                <jdbc.url>jdbc:mysql://127.2.2.2:3306/ssm_db</jdbc.url>
+            </properties>
+        </profile>
+
+        <!--测试环境-->
+        <profile>
+            <id>envTest</id>
+            <properties>
+                <jdbc.url>jdbc:mysql://127.3.3.3:3306/ssm_db</jdbc.url>
+            </properties>
+        </profile>
+    </profiles>
 
     <!--配置插件-->
     <build>
