@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/maven00SSM" />
-    <file type="web" url="file://$PROJECT_DIR$/maven01SSMpojo" />
-    <file type="web" url="file://$PROJECT_DIR$/maven02SSMdao" />
+    <file type="web" url="file://$PROJECT_DIR$/maven01SSM" />
+    <file type="web" url="file://$PROJECT_DIR$/maven02SSMpojo" />
+    <file type="web" url="file://$PROJECT_DIR$/maven03SSMdao" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +13,10 @@
         <option value="$PROJECT_DIR$/maven01SSMdomain/pom.xml" />
         <option value="$PROJECT_DIR$/maven01SSMpojo/pom.xml" />
         <option value="$PROJECT_DIR$/maven02SSMdao/pom.xml" />
+        <option value="$PROJECT_DIR$/maven01SSM/pom.xml" />
+        <option value="$PROJECT_DIR$/maven02SSMpojo/pom.xml" />
+        <option value="$PROJECT_DIR$/maven03SSMdao/pom.xml" />
+        <option value="$PROJECT_DIR$/maven00parent/pom.xml" />
       </list>
     </option>
   </component>

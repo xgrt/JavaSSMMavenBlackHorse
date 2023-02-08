@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3626019-33ba-4001-9d74-18fdc48eadbb" name="Changes" comment="Initial commit" />
@@ -31,11 +31,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -89,6 +89,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.build.tools.auto.reload": "ALL",
     "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "da6dd4eed732af4c727d7543e7e60e14",
     "vue.rearranger.settings.migration": "true"
@@ -210,6 +212,7 @@
       <workItem from="1675730973679" duration="997000" />
       <workItem from="1675732602433" duration="1563000" />
       <workItem from="1675738562275" duration="7292000" />
+      <workItem from="1675756862526" duration="11102000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675733439983</created>
@@ -295,7 +298,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675747987735</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Initial commit">
+      <created>1675756955821</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675756955822</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Initial commit">
+      <created>1675758603420</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675758603420</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Initial commit">
+      <created>1675761052812</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675761052812</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Initial commit">
+      <created>1675766838898</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675766838911</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Initial commit">
+      <created>1675768112184</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675768112184</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +378,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
