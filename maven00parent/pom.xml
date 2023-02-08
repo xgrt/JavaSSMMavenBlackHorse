@@ -19,17 +19,17 @@
             <!--依赖所属项目id-->
             <artifactId>spring-webmvc</artifactId>
             <!--依赖版本号-->
-            <version>6.0.3</version>
+            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>6.0.3</version>
+            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>6.0.3</version>
+            <version>${spring.version}</version>
         </dependency>
         <!--mybatis-->
         <dependency>
@@ -37,11 +37,13 @@
             <artifactId>mybatis</artifactId>
             <version>3.5.11</version>
         </dependency>
+
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>
-            <version>3.0.1</version>
+            <version>${mybatis-spring.version}</version>
         </dependency>
+
         <!--mysql and druid-->
         <dependency>
             <groupId>com.mysql</groupId>
@@ -68,6 +70,16 @@
         </dependency>
     </dependencies>
 
+    <!--定义自定义属性-->
+    <properties>
+        <!--定义变量-->
+        <spring.version>6.0.3</spring.version><!--尖括号里面的是属性名：可以任意写-->
+        <junit.version>4.13.2</junit.version>
+        <mybatis-spring.version>3.0.1</mybatis-spring.version>
+
+        <jdbc.url>jdbc:mysql://127.0.0.1:3306/ssm_db</jdbc.url>
+    </properties>
+
     <!--设置管理的模块名称-->
     <modules>
         <!--构建顺序与书写顺序无关，总是按照依赖关系把没有依赖的先构建再去构建其他的-->
@@ -89,9 +101,20 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>4.13.2</version>
+                <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <!--配置插件-->
+    <build>
+        <resources>
+            <!--使得这里的配置可以放到resources里面使用-->
+            <resource>
+                <directory>${project.basedir}<!--代表当前项目所在目录-->/src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
 </project>

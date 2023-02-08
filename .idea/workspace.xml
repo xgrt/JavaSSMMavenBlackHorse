@@ -6,10 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3626019-33ba-4001-9d74-18fdc48eadbb" name="Changes" comment="Initial commit" />
+    <list default="true" id="f3626019-33ba-4001-9d74-18fdc48eadbb" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven00parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven00parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven01SSM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven01SSM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven01SSM/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/maven01SSM/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven01SSM/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven02SSMpojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/maven02SSMpojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven03SSMdao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/maven03SSMdao/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,9 +98,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.build.tools.auto.reload": "ALL",
+    "settings.build.tools.auto.reload": "SELECTIVE",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "da6dd4eed732af4c727d7543e7e60e14",
+    "spring.configuration.checksum": "29298a62b2fa21381924eb0549d3c131",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -213,6 +221,8 @@
       <workItem from="1675732602433" duration="1563000" />
       <workItem from="1675738562275" duration="7292000" />
       <workItem from="1675756862526" duration="11102000" />
+      <workItem from="1675819326420" duration="2097000" />
+      <workItem from="1675828266312" duration="4943000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675733439983</created>
@@ -333,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675768112184</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Initial commit">
+      <created>1675820315432</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675820315432</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
