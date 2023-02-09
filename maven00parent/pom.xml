@@ -169,4 +169,17 @@
             </plugin>
         </plugins>
     </build>
+
+    <!--配置当前工程保存在私服中的具体位置-->
+    <distributionManagement>
+        <!--正式版的仓库-->
+        <repository>
+            <id>xgrtHB-release</id>
+            <url>http://localhost:8081/repository/xgrtHB-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>xgrtBH-snapshot</id>
+            <url>http://localhost:8081/repository/xgrtBH-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>

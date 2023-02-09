@@ -28,12 +28,6 @@
             <optional>false</optional><!--false不隐藏，true隐藏-->
         </dependency>
 
-        <!--mybatis-->
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.5.11</version>
-        </dependency>
         <!--mysql-->
         <dependency>
             <groupId>com.mysql</groupId>
@@ -49,5 +43,11 @@
         </dependency>
     </dependencies>
 
+    <parent>
+        <groupId>com.xgrt</groupId>
+        <artifactId>maven00parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../maven00parent/pom.xml</relativePath>
+    </parent>
 
 </project>

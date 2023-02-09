@@ -9,10 +9,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <!--配置当前工程继承自parent工程-->
-    <!--<parent>
+    <parent>
         <groupId>com.xgrt</groupId>
         <artifactId>maven00parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../maven00parent/pom.xml</relativePath>&lt;!&ndash;相对路径：可以快速地找到我们继承的工程&ndash;&gt;
-    </parent>-->
+        <relativePath>../maven00parent/pom.xml</relativePath><!--相对路径：可以快速地找到我们继承的工程-->
+    </parent>
 </project>

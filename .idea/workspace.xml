@@ -15,6 +15,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="PUSH_TAGS">
@@ -116,6 +123,9 @@
     <option name="myCommands">
       <command value="mvn install -p envTest" />
       <command value="mvn install -P envTest" />
+      <command value="mvn package -D skipTESTS" />
+      <command value="mvn package -D skipTests true" />
+      <command value="mvn package -D skipTests" />
     </option>
   </component>
   <component name="RunManager">
@@ -224,6 +234,7 @@
       <workItem from="1675819326420" duration="2097000" />
       <workItem from="1675828266312" duration="4943000" />
       <workItem from="1675836820793" duration="6988000" />
+      <workItem from="1675855074451" duration="2578000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675733439983</created>
@@ -379,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675854199682</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Initial commit">
+      <created>1675855471896</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675855471896</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Initial commit">
+      <created>1675857600270</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675857600270</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
