@@ -6,7 +6,7 @@
     <!--模块坐标-->
     <groupId>com.xgrt</groupId>
     <artifactId>maven02SSMpojo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-RELASE</version>
 
     <!--配置当前工程继承自parent工程-->
     <parent>

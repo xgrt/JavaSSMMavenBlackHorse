@@ -6,7 +6,7 @@
 
     <groupId>com.xgrt</groupId>
     <artifactId>maven00parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-RELASE</version>
 
     <packaging>pom</packaging><!--聚合工程：将打包方式设成pom（默认为jar，war包为war）-->
 
